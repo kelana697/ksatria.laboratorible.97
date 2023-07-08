@@ -1,0 +1,28 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	scroll-behavior: smooth;
+}
+
+header {
+	background: #101c2a;
+	color: #eaeaea;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+.button {
+    margin-right: 10px;
+	border: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 6px 12px;
+	background: #59b5fb;
+	color: #eaeaea;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 1px 1px 5px 5px rgba(10, 48, 91, 0.5);
+}
