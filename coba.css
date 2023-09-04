@@ -177,6 +177,9 @@ a {
 	font-size: 14px;
 	margin-top: 4px;
 }
+.card:hover {
+    transform: scale(1.05);
+  }
 
 .icon {
 	width: 100px;
